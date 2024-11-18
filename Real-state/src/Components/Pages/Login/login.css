@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Nunito';
+}
+
+.login-form-wrapper {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 30px;
+}
+
+.login-form-header {
+    font-weight: 700;
+    color: #484848;
+    margin-bottom: 35px;
+}
+
+.login-form-header h5 {
+    font-weight: bold;
+}
+
+.login-form-header p {
+    color: gray;
+    font-size: 14px;
+}
+
+#loginForm {
+    border: none;
+    font-size: 0.825rem;
+}
+
+.error-message {
+    font-size: small;
+}
+
+.form-checks a {
+    text-decoration: none;
+}
+
+#loginBtn {
+    background-color: #ff5a5f;
+    color: 'white';
+    font-weight: 600;
+    border: none;
+}
+
+#register-prompt {
+    text-align: center;
+    font-size: small;
+    margin-top: 15px;
+}
+
+#register-prompt a {
+    text-decoration: none;
+    color: #ff5a5f;
+}

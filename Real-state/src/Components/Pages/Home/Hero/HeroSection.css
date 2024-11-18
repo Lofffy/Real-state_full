@@ -1,0 +1,30 @@
+/* Hero Section */
+.homepage-hero {
+    background-image: url('../../../../assets/homepage-hero.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: overlay;
+    background-color: rgba(36, 50, 74, 0.65);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.homepage-hero h1 {
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size: 54px;
+    color: white;
+}
+
+.homepage-hero h3 {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: white;
+}

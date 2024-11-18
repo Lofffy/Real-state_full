@@ -1,0 +1,148 @@
+/* Background color for the section */
+.backcolor {
+    background-color: rgb(230, 230, 230);
+}
+
+/* Title section styles */
+#why-choose-us .title-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#why-choose-us .title-container p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Service card styles */
+#why-choose-us .service-card {
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 10%;
+}
+
+#why-choose-us .service-card:hover {
+    transform: translateY(-0.625rem);
+}
+
+/* Icon styles inside service card */
+#why-choose-us .icon {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: #fceaea;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    object-fit: contain;
+}
+
+/* Service card title and paragraph */
+#why-choose-us h3 {
+    font-size: 1.25rem;
+    margin-top: 0.9375rem;
+    color: #333;
+}
+
+#why-choose-us p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+#why-choose-us.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+/* Blog card styles */
+#why-choose-us .blog-card {
+    height: 26rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 2rem;
+    width: 32%;
+    display: flex; /* Added for flex layout */
+    flex-direction: column; /* Ensure column layout */
+}
+
+/* Hover effect for blog card */
+#why-choose-us .blog-card:hover {
+    transform: translateY(-0.625rem);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+/* Image inside blog card */
+#why-choose-us .card-image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 0.125rem solid #eee;
+}
+
+/* Blog card content styles */
+#why-choose-us .card-content {
+    padding: 1.25rem;
+    display: flex; /* Added for flex layout */
+    flex-direction: column; /* Column layout */
+    flex-grow: 1; /* Allows this section to expand */
+}
+
+/* Category text inside blog card */
+#why-choose-us .category {
+    color: #f56565;
+    font-size: 0.875rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* Blog card title */
+#why-choose-us .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+    line-height: 1.4;
+}
+
+/* Blog card footer styles */
+#why-choose-us .card-footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
+    border-top: 0.125rem solid #eee;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Author info styles inside the card footer */
+#why-choose-us .author-info {
+    display: flex;
+    align-items: center;
+}
+
+#why-choose-us .author-img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+    object-fit: cover;
+}
+
+/* Post date styles inside the card footer */
+#why-choose-us .post-date {
+    color: #777;
+    font-size: 0.875rem;
+}

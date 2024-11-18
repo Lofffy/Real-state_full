@@ -1,0 +1,193 @@
+.featured-cards{
+    width: 100%;
+    margin: auto !important;
+    justify-content: space-between;
+}
+
+.featured-card{
+    transition: transform 0.3s ease;
+}
+
+.featured-card:hover{
+    transform: scale(1.02);
+}
+
+.featured-properties-section {
+    background-color: whitesmoke;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.featured-properties-text {
+    font-family: 'Nunito';
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.featured-properties-text h2 {
+    font-weight: bold;
+}
+
+.featured-properties-text p {
+    color: gray;
+}
+
+.featured-property-card {
+    font-family: 'Nunito';
+}
+
+.featured-property-card .card-body p,
+h5 {
+    margin: 0;
+}
+
+.featured-property-card .card-image {
+    height: 250px;
+    position: relative;
+    padding: 10px;
+}
+
+.featured-property-card .card-img-top {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.featured-property-card .img-top-container{
+    position: relative;
+}
+
+/* Overlay styling */
+.featured-property-card .image-overlay {
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    width: calc(100% - 20px); /* Adjust for padding */
+    height: calc(100% - 20px); /* Adjust for padding */
+    margin: 10px; /* Match the padding to the margin */
+    background-color: rgba(36, 50, 74, 0.30); /* Black overlay with transparency */
+    color: white;
+}
+
+.featured-property-card .overlay-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 25px;
+    height: 100%;
+}
+
+.featured-property-card .tags {
+    display: flex;
+}
+
+.featured-property-card .tag {
+    padding: 3px 12px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.featured-property-card .featured {
+    background-color: #364765;
+}
+
+.featured-property-card .for-sale {
+    background-color: #ff5a5f;
+}
+
+.featured-property-card .bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-property-card .price {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.featured-property-card .per-month {
+    font-size: 14px;
+}
+
+.featured-property-card .button-group {
+    display: flex;
+    gap: 5px;
+    text-align: center;
+}
+
+.featured-property-card .button-group button {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none; /* Ensure buttons don't have default borders */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-property-card .button-group button:hover {
+    background-color: white;
+    
+}
+
+.featured-property-card .button-group i {
+    color: white;
+}
+
+.featured-property-card .button-group button:hover .icon{
+    color: black;
+}
+
+.featured-property-card .property-type {
+    color: #ff5a5f;
+    font-size: 14px;
+}
+
+.featured-property-card .card-title {
+    font-weight: 650;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px !important;
+}
+
+.featured-property-card .location {
+    font-size: 14px;
+    color: gray;
+}
+
+.featured-property-card .property-info {
+    font-size: 14px;
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.featured-property-card .agent-info {
+    font-size: 14px;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.featured-property-card .agent-details {
+    display: flex;
+    align-items: center;
+}
+
+.featured-property-card .agent-photo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.featured-property-card .time-ago {
+    font-size: 14px;
+    color: grey;
+}

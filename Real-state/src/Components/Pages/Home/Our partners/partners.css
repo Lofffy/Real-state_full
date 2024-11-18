@@ -1,0 +1,24 @@
+.partner-logo {
+    max-width: 100px;
+    height: auto;
+  }
+  .cta-section{
+    background: #ff5a5f;
+  }
+  #head h2,#head p{
+    color: white;
+  }
+  .cta-section #cta-btn {
+    width: 200px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cta-section #cta-btn:hover {
+    background-color: white;
+    color: #ff5a5f;
+  }
+  

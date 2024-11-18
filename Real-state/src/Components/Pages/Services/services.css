@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+#mainServices{
+    font-family: 'Nunito', sans-serif !important;
+    box-sizing: border-box !important;
+}
+
+
+/* Header Background */
+#mainServices .back {
+    position: relative;
+    background-image: url("../../../assets/inner-pagebg.17d731a1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh; /* Adjust the height to fit the design */
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+}
+
+#mainServices .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    z-index: 1;
+}
+
+#mainServices .backTry h3,#mainServices .backTry p {
+    position: relative;
+    z-index: 2; 
+    color: white;
+    text-align: center;
+    
+    
+}
+
+#mainServices .backTry h3 {
+    margin: 0;
+    font-size: 2.5rem; /* Adjust the title size */
+    padding-left: 10rem;
+}
+
+#mainServices .backTry p {
+    margin: 5px 0;
+    font-size: 1.2rem; /* Adjust the breadcrumb size */
+    padding-left: 10rem;
+}
+
+/* Cards section */
+#mainServices .card {
+    width: 85% !important;
+    transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+#mainServices .card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+

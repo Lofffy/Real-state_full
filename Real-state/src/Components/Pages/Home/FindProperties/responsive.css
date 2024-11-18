@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .city-cards .small-card,
+    .city-cards .big-card {
+        width: 100% !important; 
+    }
+    #why-choose-us .blog-card{
+        width: 100% !important;
+    }
+}

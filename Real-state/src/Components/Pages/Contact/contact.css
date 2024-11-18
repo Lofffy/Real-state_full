@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Hero Section */
+.contact-hero {
+    height: 45vh;
+    display: flex;
+    background-image: url('../../../assets/about-hero.jpg');
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Nunito';
+}
+
+.contact-hero h1{
+    color: white;
+    font-weight: bold;
+}
+
+.contact-hero h6, .contact-hero a{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.content{
+    background-color: whitesmoke; 
+    padding-top: 50px; 
+    padding-bottom: 50px;
+}
+
+.sendEmail{
+    font-family: 'Nunito';
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.sendEmail h5, .contactPanel h5{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.sendEmail p, .contactPanel p{
+    font-size: 15px;
+    color: gray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sendEmail input, .sendEmail textarea{
+    font-size: 14px;
+}
+
+#send-btn{
+    background-color: #ff5a5f; 
+    color: white;
+    padding: 12px;
+    margin-top: 10px;
+    font-weight: 600;
+    border: none;
+}
+
+.contactPanel{
+    font-family: 'Nunito';
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.panelDetails{
+    margin-bottom: 25px;
+}
+
+.panelDetails h6{
+    font-weight: 600;
+}
+
+.panelDetails p{
+    margin-top: 5px;
+}
+
+.panelIcon{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panelIcon a{
+    color: black;
+}
+
+.map{
+    height: 500px;
+}

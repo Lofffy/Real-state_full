@@ -1,0 +1,52 @@
+/* Navbar Styles */
+#HomeNavbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+#HomeNavbar .navbar-brand img {
+    max-width: 175px;
+    margin-left: 20px;
+}
+
+#HomeNavbar .navbar-toggler {
+    border: none;
+}
+
+#HomeNavbar .navbar-nav {
+    padding: 15px 20px !important;
+    gap: 15px;
+}
+
+#HomeNavbar .nav-link {
+    transition: color 0.3s ease;
+}
+
+#HomeNavbar .navbar-nav .nav-link {
+    color: white;
+    font-weight: 600;
+    font-family: 'Nunito';
+}
+
+#HomeNavbar .navbar-nav .nav-link.active,
+#HomeNavbar .navbar-nav .nav-link:hover {
+    color: #ff5a5f !important;
+}
+
+#HomeNavbar #register-btn {
+    color: #ff5a5f;
+    background-color: white;
+    border-radius: 20px;
+    width: 125px;
+    font-weight: 600;
+}
+
+#HomeNavbar #register-btn:hover {
+    background-color: #ff5a5f;
+    color: white;
+}
+
+/* Navbar Collapse */
+#HomeNavbar .navbar-collapse {
+    flex-grow: unset !important;
+}

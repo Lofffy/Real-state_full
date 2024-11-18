@@ -1,0 +1,92 @@
+.mainclr {
+    color: #ff5a5f;
+}
+
+.btnbg:hover {
+    background: #ff5a5f !important;
+}
+
+.drpdwn {
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.status {
+    position: absolute;
+    top: 1rem;
+    left: 7rem;
+    background: #ff5a5f;
+}
+
+.featured {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: #24324a;
+}
+
+.agentImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pagination .page-item {
+    margin: 0 5px;
+}
+
+.pagination .page-link {
+    text-decoration: none;
+    font-style: bold;
+    color: #d9534f;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination .page-link:hover {
+    background-color: #f0f0f0;
+}
+
+.pagination .page-link.active {
+    background-color: #ff5a5f;
+    color: white;
+    border-color: #ff5a5f;
+}
+
+.pagination .page-link[aria-label] {
+    border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #6c757d;
+    /* Gray color for dots */
+}
+
+.carousel-indicators .active {
+    background-color: #000;
+    /* Black color for active dot */
+}
+
+.carousel-indicators {
+    bottom: -55px;
+}
+
+.RecentImg {
+    width: 64px;
+    height: 64px;
+}

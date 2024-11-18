@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find House</title>
+    <link rel="icon" href="../assets/images/logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/239d189738.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="w-[74%] mx-auto text-center text-white flex justify-between">
+        <div class="w-[66%]">
+            <div id="property-section" class="">
+            </div>
+        </div>
+        <div class="w-[32%] justify-center my-auto">
+            <div class="w-1/2 flex" id="price-section"></div>
+        </div>
+    </div>
+    <div class="w-[74%] mx-auto text-center text-white flex justify-between mb-14">
+        <div id="main-image" class="w-[66%]"></div>
+        <div id="sub-images" class=" w-[32%]"></div>
+    </div>
+    <div class="bg-[#f5f5f5]">
+        <div class="w-[74%] mx-auto text-black flex justify-between">
+            <div class="w-[66%]" id="leftsection">
+                <div class="bg-white my-10  rounded-xl ">
+                    <div class="p-10">
+                        <h6 class="font-sans mx-auto text-2xl text-gray-700 pb-5"
+                            style="font-family: 'Nunito', sans-serif;font-weight: 700; ">
+                            Description
+                        </h6>
+
+                        <div id="paragraphs"></div>
+                    </div>
+
+                    <div class="w-full h-[1px] bg-gray-300"></div>
+                    <div class="p-10">
+                        <h6 class="text-2xl font-sans mx-auto text-gray-700 pb-5"
+                            style="font-family: 'Nunito', sans-serif;font-weight: 700; ">
+                            Property Detials
+                        </h6>
+                        <div class="" id="Detials"></div>
+                    </div>
+                    <div class="w-full h-[1px] bg-gray-300"></div>
+                    <div class="p-10">
+                        <h6 class="text-2xl font-sans mx-auto text-gray-700 pb-5"
+                            style="font-family: 'Nunito', sans-serif;font-weight: 700; ">
+                            Additional Detials
+                        </h6>
+                        <div class="" id="AddDetials"></div>
+                    </div>
+
+                </div>
+                <div class="bg-white my-10 rounded-xl">
+                    <div class="p-10">
+                        <h6 class="text-2xl font-sans mx-auto text-gray-700 pb-5"
+                            style="font-family: 'Nunito', sans-serif;font-weight: 700; ">
+                            Features
+                            <div id="Features" class="mt-5"></div>
+                        </h6>
+                    </div>
+                </div>
+                <div class="bg-white my-10 rounded-xl">
+                    <div class="p-10">
+                        <div class="flex justify-between w-full">
+                            <h6 class="text-2xl font-sans text-gray-700 pb-5"
+                                style="font-family: 'Nunito', sans-serif;font-weight: 700; ">
+                                Location
+                            </h6>
+                            <div id="address">
+                            </div>
+                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.441089623359!2d-118.2573863244296!3d34.03255477316437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7d2efe550f3%3A0x98a46933f1c3a86f!2s1421%20San%20Pedro%20St%2C%20Los%20Angeles%2C%20CA%2090015%2C%20USA!5e0!3m2!1sen!2seg!4v1725992236209!5m2!1sen!2seg"
+                            class="h-[59vh] w-full" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[32%]">
+                <div class="w-1/2 flex" id="price-section">
+                </div>
+                <div class="mt-10 bg-white w-full rounded-xl">
+                    <div class="p-7">
+                        <h6 class="font-sans mx-auto text-xl text-gray-700 pb-5"
+                            style="font-family: 'Nunito', sans-serif;font-weight: 700; ">
+                            Listed by
+                        </h6>
+                        <div id="form-section"></div>
+                    </div>
+                </div>
+                <div id="featured-section" class="mt-10"></div>
+                <div id="categories-section" class="mt-10"></div>
+                <div id="recently-viewed-section" class="mt-10"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./propDetails.js"></script>
+</body>
+
+</html>

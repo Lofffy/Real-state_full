@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Hero Section */
+.about-hero {
+    height: 45vh;
+    display: flex;
+    background-image: url('../../../assets/about-hero.jpg');
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Nunito';
+}
+
+.about-hero h1{
+    color: white;
+    font-weight: bold;
+}
+
+.about-hero h6, .about-hero a{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+/* Content Section */
+.content-section {
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content-section h4 {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.content-section p {
+    font-family: 'Nunito';
+    font-size: 16px;
+    color: gray;
+}
+
+.video-section {
+    object-fit: cover;
+    min-height: 515px;
+    max-height: 70vh;
+}
+
+/* Partners Section */
+.partners-section {
+    font-family: 'Nunito';
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.partners-section p{
+    color: gray;
+}
+
+/* Call-to-action Section */
+.cta-section {
+    min-height: 150px;
+    background-color: #ff5a5f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Nunito';
+}
+
+.cta-section h2{
+    color: white;
+    font-weight: bold;
+}
+
+.cta-section p{
+    color: white;
+    font-weight: 500;
+}
+
+#cta-btn {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    padding: 15px;
+}
+
+#cta-btn:hover{
+    background-color: white;
+    color: #ff5a5f;
+}

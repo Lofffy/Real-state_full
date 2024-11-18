@@ -1,0 +1,146 @@
+/* Navbar Styles */
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand img {
+    max-width: 175px;
+    margin-left: 20px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    gap: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: 600;
+    font-family: 'Nunito';
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #ff5a5f !important;
+}
+
+#register-btn {
+    background-color: #ff5a5f; 
+    color: white;
+    border-radius: 20px;
+    width: 125px;
+    font-weight: 600;
+}
+
+#register-btn:hover {
+    background-color: white;
+    color: #ff5a5f;
+}
+
+/* Navbar Collapse */
+.navbar-collapse {
+    flex-grow: unset !important;
+}
+
+/* Call-to-action Section */
+.cta-section {
+    min-height: 150px;
+    background-color: #ff5a5f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Nunito';
+}
+
+.cta-section h2{
+    color: white;
+    font-weight: bold;
+}
+
+.cta-section p{
+    color: white;
+    font-weight: 500;
+}
+
+#cta-btn {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    border: none !important;
+    padding: 15px;
+}
+
+#cta-btn:hover{
+    background-color: white;
+    color: #ff5a5f;
+}
+
+.footer-upper-part{
+    background-color: #24334A;
+    color: lightgray;
+    font-family: 'Nunito';
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-upper-part h6{
+    font-weight: bold;
+    color: white;
+}
+
+.footer-upper-part a{
+    color: lightgray;
+    text-decoration: none;
+}
+
+.footer-upper-part a:hover{
+    text-decoration: underline;
+}
+
+.footer-upper-part input{
+    width: 200px;
+    font-size: 14px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #364765;
+    color: grey;
+}
+
+.footer-upper-part button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #364765;
+    color: white;
+
+}
+
+.footer-bottom-part{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    background-color: #1D293F;
+    color: lightgray;
+}
+
+.footer-bottom-part a{
+    color: lightgray;
+    text-decoration: none;
+}
+
+.footer-bottom-part a:hover{
+    text-decoration: underline;
+}
+
+.footer-bottom-part a, .footer-bottom-part p{
+    font-size: 14px;
+}

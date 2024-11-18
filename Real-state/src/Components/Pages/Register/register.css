@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;800&display=swap');
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+}
+
+.reg-form-wrapper {
+    max-width: 500px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 30px;
+}
+
+.reg-form-header {
+    font-weight: 700;
+    color: #484848;
+    margin-bottom: 35px;
+}
+
+.reg-form-control {
+    font-size: 0.875rem;
+}
+
+#registrationForm{
+    border: none;
+    font-size: 0.825rem;
+}
+
+#registrationForm .text-danger {
+    font-size: 0.75rem;
+}
+
+.reg-form-check a {
+    text-decoration: none;
+    color: #ff5a5f;
+}
+
+#createAccount {
+    background-color: #ff5a5f;
+    color: 'white';
+    font-weight: 600;
+    border: none;
+}
+
+#log-in-prompt{
+    text-align: center;
+    font-size: small;
+    margin-top: 15px;
+}
+
+#log-in-prompt a {
+    text-decoration: none;
+    color: #ff5a5f;
+}

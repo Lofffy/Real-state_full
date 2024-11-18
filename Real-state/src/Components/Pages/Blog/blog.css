@@ -1,0 +1,180 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+#mainBlog {
+    font-family: 'Nunito', sans-serif;
+}
+
+#mainBlog .home p {
+    color: #24324a;
+}
+
+#mainBlog .home span {
+    color: #ff5a5f;
+}
+
+#mainBlog .home h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#mainBlog .cardContainer {
+    position: relative;
+    border: none;
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+#mainBlog .cardContainer .image-wrapper {
+    width: 100%;
+    height: 200px; /* Fixed height for uniformity */
+    overflow: hidden; /* Ensures the image stays within the container */
+}
+
+#mainBlog .cardContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintains aspect ratio while filling container */
+    border-radius: 8px;
+}
+
+#mainBlog .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#mainBlog .badgee {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #d9534f;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#mainBlog a {
+    text-decoration: none;
+    color: #d9534f;
+    font-weight: bold;
+}
+
+#mainBlog .card-body {
+    padding: 20px;
+}
+
+#mainBlog .card-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#mainBlog .cardDate,
+#mainBlog .cardAuthor {
+    font-size: 14px;
+    color: #999;
+    margin-right: 10px;
+}
+
+#mainBlog .card-text {
+    margin-bottom: 10px;
+}
+
+#mainBlog .readMore {
+    background-color: transparent;
+    color: #d9534f;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+#mainBlog .readMore:hover {
+    color: #c9302c;
+}
+
+#mainBlog .blogDetails {
+    margin: 5% auto;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+#mainBlog .blogDetails h3 {
+    padding-top: 2%;
+}
+
+#mainBlog .blogDetails img {
+    width: 79%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+
+#mainBlog .paragraph {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    line-height: 1.8;
+    color: #24324a;
+}
+
+#mainBlog .btn {
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+#mainBlog #backToBlog {
+    text-decoration: none;
+    color: #ff5a5f;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+#mainBlog #backToBlog:hover {
+    color: #e04a4a;
+}
+
+#mainBlog .pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#mainBlog .pagination .page-item {
+    margin: 0 5px;
+}
+
+#mainBlog .pagination .page-link {
+    text-decoration: none;
+    color: #555;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#mainBlog .pagination .page-link:hover {
+    background-color: #f0f0f0;
+}
+
+#mainBlog .pagination .page-link.active {
+    background-color: #ff5a5f;
+    color: white;
+    border-color: #ff5a5f;
+}
+
+#mainBlog .pagination .page-link[aria-label] {
+    border-radius: 50%;
+}

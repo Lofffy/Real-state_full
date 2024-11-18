@@ -1,0 +1,28 @@
+h1,
+h2,
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    /* Use bold */
+    color: #484848;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    /* Use regular weight */
+    font-size: medium;
+    color: grey;
+}
+
+/* styles.css */
+.custom-link {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Inherit the color from the parent element */
+}
+
+.container {
+    width: 80% !important;
+}
