@@ -21,16 +21,17 @@ This repository hosts a full-stack real estate application, offering a complete 
 
 
 ### Featured Properties
-![Featured Properties](02-featured-properties.png)
+![2](https://github.com/user-attachments/assets/a03c28ef-0379-494c-9a55-b3f6bce9dfd6)
 
-### Search Functionality
-![Search Functionality](03-search.png)
+
 
 ### Blog Section
-![Blog Section](04-blog.png)
+![05-blog](https://github.com/user-attachments/assets/a14db29f-45fa-45a0-93c1-f61dca132613)
+
 
 ### Contact Us Page
-![Contact Us Page](07-conatct-us.png)
+![07-conatct-us](https://github.com/user-attachments/assets/20428149-d9c0-40a7-8db5-5fda1275f477)
+
 
 ## Getting Started
 
