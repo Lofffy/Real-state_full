@@ -17,7 +17,8 @@ This repository hosts a full-stack real estate application, offering a complete 
 ## Preview
 
 ### Home Page
-![Home Page](01.png)
+![01](https://github.com/user-attachments/assets/412f7b09-8b87-4c54-b0bf-282327e278ef)
+
 
 ### Featured Properties
 ![Featured Properties](02-featured-properties.png)
