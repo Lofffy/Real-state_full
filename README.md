@@ -14,10 +14,22 @@ This repository hosts a full-stack real estate application, offering a complete 
 - Detailed property listings with search and filter options.
 - Responsive design for optimal use on all devices.
 
-## Technologies Used
+## Preview
 
-- **Backend**: Node.js, Express.js, MongoDB
-- **Frontend**: React.js, HTML, CSS
+### Home Page
+![Home Page](01.png)
+
+### Featured Properties
+![Featured Properties](02-featured-properties.png)
+
+### Search Functionality
+![Search Functionality](03-search.png)
+
+### Blog Section
+![Blog Section](04-blog.png)
+
+### Contact Us Page
+![Contact Us Page](07-conatct-us.png)
 
 ## Getting Started
 
@@ -81,6 +93,9 @@ Make sure you have the following installed on your system:
 
 Contributions are welcome! Feel free to fork this repository, create a new branch, and submit a pull request.
 
+## License
+
+This project is licensed under the MIT License.
 
 ## Contact
 
